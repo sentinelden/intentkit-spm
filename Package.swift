@@ -15,9 +15,9 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(
-            name: "IntentKitSDK",   // 2.4.5
-            url: "https://api.sentinelden.com/spm/intentkit_sdk/2.4.5/IntentKitSDK.xcframework.zip",
-            checksum: "f9bca49142959b46f978ebfc8124c3668e47650c536b158d62b392cb32056ae2"
+            name: "IntentKitSDK",   // 2.5.0
+            url: "https://api.sentinelden.com/spm/intentkit_sdk/2.5.0/IntentKitSDK.xcframework.zip",
+            checksum: "e7f3ac19f92cfed0b1e8d6ece72904cdb4c200c5dd680af0c8b9375e8d78b270"
         ),
     ]
 )
