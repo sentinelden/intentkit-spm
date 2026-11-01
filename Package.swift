@@ -9,15 +9,15 @@ import PackageDescription
 
 let package = Package(
     name: "IntentKitSDK",
-    platforms: [.iOS(.v17)],
+    platforms: [.iOS(.v18)],
     products: [
         .library(name: "IntentKitSDK", targets: ["IntentKitSDK"]),
     ],
     targets: [
         .binaryTarget(
-            name: "IntentKitSDK",   // 3.0.0
-            url: "https://api.sentinelden.com/spm/intentkit_sdk/3.0.0/IntentKitSDK.xcframework.zip",
-            checksum: "262b6bab6023edb2b66b77c3ca70d3866c3a20f8a10e634a79340e6ff4a58fd1"
+            name: "IntentKitSDK",   // 4.0.0
+            url: "https://api.sentinelden.com/spm/intentkit_sdk/4.0.0/IntentKitSDK.xcframework.zip",
+            checksum: "0b5f880936ef6248333ff995131c76d60d672948c897b0062f3a503e8365ed23"
         ),
     ]
 )
