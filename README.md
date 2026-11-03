@@ -37,7 +37,7 @@ In a `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/sentinelden/intentkit-spm", from: "4.0.0"),
+    .package(url: "https://github.com/sentinelden/intentkit-spm", from: "4.1.0"),
 ],
 targets: [
     .target(name: "App", dependencies: [
